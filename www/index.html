@@ -38,6 +38,10 @@
         $('#btnC').click(function(e) {
             btnCClick(e);
         });
+
+        $('#btnD').click(function(e) {
+            btnDClick(e);
+        });
         init();
     });
     
@@ -202,6 +206,12 @@
         $("#remain").html("残り時間 : " + period);
         
     }
+
+    //ButtonDがクリックされたときの動作
+    function btnDClick(e){
+        period += 60;
+
+    }
     
  
     // 繰り返し実行する処理
@@ -235,6 +245,7 @@
     <button id="btnA">Start</button>  
     <button id="btnB">Stop</button>  
     <button id="btnC">Set</button>  
+    <button id="btnD">add</button>
     <input type="number" id="minute" value=0 >
     <input type="number" id="second" value=15 >
 </body>
