@@ -47,7 +47,7 @@
     #btnA {
         font-size: 20px;
         position:absolute; top:380px; left:2%; width:43%; height:60px; 
-        background-color: yellow;
+        background-color: wheat;
         color:green;
     }
     
@@ -57,7 +57,7 @@
     }
 
     #btnC {
-        font-size: 10px;
+        font-size: 20px;
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
     }
     
@@ -74,11 +74,11 @@
     input[type=number] {text-align: right;}
 
    body {
-background-color: skyblue; 
+background-color: rgb(58, 199, 255); 
 }
 
 button{
-    color:blue;
+    color:blueviolet;
     font-family: Times;
     border-radius: 20px;
 }
